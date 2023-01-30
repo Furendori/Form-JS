@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-right: 85%;
+    margin-left: 2%;
+    
+}
+
+span {
+    color: red;
+}
+
+button {
+    margin-right: 60%;
+}
+
+#cgu {
+    margin-right: 94%;
+}
