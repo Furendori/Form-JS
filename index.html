@@ -15,10 +15,10 @@
         <input type="text" name="prenom" id="prenom" pattern="[A-Za-z]+" title="Le prénom ne peut contenir que des lettres." placeholder="Jenna" required>
 
         <label for="nom">Nom:<span>*</span></label>
-        <input type="text" name="nom" id="nom" placeholder="Grande" required>
+        <input type="text" name="nom" id="nom" pattern="[A-Za-z]+" placeholder="Grande" required>
 
         <label for="mail">E-mail:<span>*</span></label>
-        <input type="email" name="mail" id="mail" placeholder="JennaGrande@hotmail.fr" required>
+        <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="JennaGrande@hotmail.fr" required>
 
         <label for="mdp">Mot de passe:<span>*</span></label>
         <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required>
