@@ -12,27 +12,27 @@
     <form action="">
         
         <label for="prenom">Prénom:<span>*</span></label>
-        <input type="text" name="prenom" id="prenom" placeholder="Jenna">
+        <input type="text" name="prenom" id="prenom" pattern="[A-Za-z]+" title="Le prénom ne peut contenir que des lettres." placeholder="Jenna" required>
 
         <label for="nom">Nom:<span>*</span></label>
-        <input type="text" name="nom" id="nom" placeholder="Grande">
+        <input type="text" name="nom" id="nom" placeholder="Grande" required>
 
         <label for="mail">E-mail:<span>*</span></label>
-        <input type="email" name="mail" id="mail" placeholder="JennaGrande@hotmail.fr">
+        <input type="email" name="mail" id="mail" placeholder="JennaGrande@hotmail.fr" required>
 
         <label for="mdp">Mot de passe:<span>*</span></label>
-        <input type="password" name="mdp" id="mdp" placeholder="Mot de passe">
+        <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required>
 
         <label for="mdpc">Confirmation du mot de passe:<span>*</span></label>
-        <input type="password" name="mdpc" id="mdpc" placeholder="Confirmation du mot de passe">
+        <input type="password" name="mdpc" id="mdpc" placeholder="Confirmation du mot de passe" required>
 
         <label for="datenaissance">Date de naissance:<span>*</span></label>
-        <input type="date" name="datenaissance" id="datenaissance">
+        <input type="date" name="datenaissance" id="datenaissance" required>
 
         <label for="cgu">Accepter les Conditions Générales d'Utilisation:<span>*</span></label>
-        <input type="checkbox" name="cgu" id="cgu">
+        <input type="checkbox" name="cgu" id="cgu" required>
 
-        <input type="submit" value="Envoyer" class="submit-button">
+        <input type="submit" value="Envoyer">
 
     </form>
 
