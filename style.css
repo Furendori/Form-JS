@@ -5,7 +5,8 @@ form {
     justify-content: center;
     margin-right: 85%;
     margin-left: 2%;
-    
+    padding: 10px;
+    height: 50%;
 }
 
 span {
@@ -18,4 +19,9 @@ button {
 
 #cgu {
     margin-right: 94%;
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 10px;
 }
